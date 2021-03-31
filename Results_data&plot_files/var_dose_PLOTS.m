@@ -1,4 +1,4 @@
-%Cancer & Total cells vs varying dosages
+%Individual patient validation - Figure 7
 clear;
 
 % Scaling
