@@ -1,4 +1,4 @@
-%Plot dynamics
+%Different treatment dynamics - Figure 4
 clear;
 % total time = start-treatment + treatment + observation time 
 %T= 0 + 84 + 365 ;
