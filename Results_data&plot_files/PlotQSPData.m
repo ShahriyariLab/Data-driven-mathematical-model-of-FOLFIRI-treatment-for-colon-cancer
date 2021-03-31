@@ -1,7 +1,7 @@
-%Plot dynamics
+%Plot dynamics - Figure 3
 
 % reading parsed data
-load('Results\All_Dynamic_SS\V63-results-all-data.mat')
+load('Results\All_Dynamic\V63-results-all-data.mat')
 
 % total time = start-treatment + treatment + observation time 
 T=1000;
