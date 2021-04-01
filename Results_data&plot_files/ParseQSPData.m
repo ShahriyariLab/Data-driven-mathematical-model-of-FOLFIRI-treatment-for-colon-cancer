@@ -24,7 +24,7 @@ data=cell(1,5);
 % maxdata=cell(1,5);
 % mindata=cell(1,5);
 for cluster=1:5
-    tab=readtable(['Results/All_Dynamic_SS/V63-cluster-' num2str(cluster) '-of-5-results-dat.csv']);
+    tab=readtable(['Results/All_Dynamic/V63-cluster-' num2str(cluster) '-of-5-results-dat.csv']);
     data{cluster}=tab{:,:};
 %     tab=readtable(['Data/Dynamic/V63-cluster-' num2str(cluster) '-of-5-results-varmindat.csv']);
 %     mindata{cluster}=tab{:,:};
@@ -34,4 +34,4 @@ end
 
 clear cluster t tab
 
-save('Results\All_Dynamic_SS\V63-results-all-data.mat')
+save('Results\All_Dynamic\V63-results-all-data.mat')
