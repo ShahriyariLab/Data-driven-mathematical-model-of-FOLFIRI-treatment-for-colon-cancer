@@ -4,6 +4,12 @@ Many colon cancer patients show resistance to their treatments. Therefore, it is
 
 This repository contains the following scripts:
 
+Data Preparation
+
+Validation 
+
+Results Data and Plots
+
 
 
 
