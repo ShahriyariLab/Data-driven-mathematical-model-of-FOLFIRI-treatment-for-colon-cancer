@@ -1,4 +1,8 @@
-%Varying Start-treatment dynamics - Figure 5
+% Varying Start-treatment dynamics - Figure 5
+% Data file link:
+https://umass-my.sharepoint.com/:f:/g/personal/abudithi_umass_edu/EiCO4DSSWG5Cj_5plwdvs3QBml6hpPKF85AIBc447AdRKQ?e=a4J7Mo
+
+
 clear;
 % total time = start-treatment + treatment + observation time 
 %T= 0 + 84 + 365 ;
