@@ -32,4 +32,4 @@ Results Data & Plots  :
 
 If using any parts of this code please cite
 
-Budithi, A.; Su, S.; Kirshtein,A.; Shahriyari L. Data drivenmathematical model of FOLFIRItreatment for colon cancer.Cancers2021. (Manuscript submitted for publishing)
+Budithi, A.; Su, S.; Kirshtein, A.; Shahriyari L. Data driven mathematical model of FOLFIRI treatment for colon cancer. Cancers2021. (Manuscript submitted for publishing)
