@@ -1,4 +1,4 @@
-% Figures 9 & 19
+% Figures 9 & 10
 
 clear;
 % Scaling
