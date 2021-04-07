@@ -1,4 +1,13 @@
-% Figures 9 & 10
+
+% var_sensitive_par_PLOTS: script for plotting the results in Figure 9 & 10, obtained by running 
+%   folfiri_dynamics.ipynb and ParseQSPData.m
+% Author: Aparajita Budithi
+% (c) Shahriyari Lab https://sites.google.com/site/leilishahriyari/
+%
+% If using this or related code please cite 
+% Budithi, A.; Su, S.; Kirshtein, A.; Shahriyari L. 
+%   Data driven mathematical model of FOLFIRI treatment for colon cancer. Cancers2021. 
+%   (Manuscript submitted for publishing)
 
 clear;
 % Scaling
@@ -7,17 +16,11 @@ tab=readtable('input/Large_Tumor_variable_scaling.csv');
 cells=[tab{:,:}];
 lmod=1:9; %all cells
 
-%CHOOSE Parameter
-%param = 'delta_{CFULV}';
-%original_par = 0.0005362; %delta_{CFULV}
-%param = 'delta_{5fuM}';
-%original_par = 3.6166e-06; % delta_{5fuM}
-
 params = {'delta_{CFULV}','delta_{5fuM}'};
 param_values = [0.0005362,3.6166e-06];
+% delta_5fuM = 3.6166e-06, delta_C5fuLV = 0.0005362
 
 cons = [0.1,0.5,1,2,3,4,5];
-% delta_5fuM = 3.6166e-06, delta_C5fuLV = 0.0005362
 t_points = [100, 169, 365, 365*2, 365*3];
 
 %color variation for the plots
