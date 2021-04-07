@@ -1,6 +1,16 @@
-% Varying Start-treatment dynamics - Figure 5
+% var_start_treatment_PLOTS: script for plotting the results in Figure 5 obtained by running 
+%   var_start_treatment.ipynb 
 % Data file link:
-https://umass-my.sharepoint.com/:f:/g/personal/abudithi_umass_edu/EiCO4DSSWG5Cj_5plwdvs3QBml6hpPKF85AIBc447AdRKQ?e=a4J7Mo
+%  https://umass-my.sharepoint.com/:f:/g/personal/abudithi_umass_edu/EiCO4DSSWG5Cj_5plwdvs3QBml6hpPKF85AIBc447AdRKQ?e=a4J7Mo
+%
+% Author: Aparajita Budithi
+% (c) Shahriyari Lab https://sites.google.com/site/leilishahriyari/
+%
+% If using this or related code please cite 
+% Budithi, A.; Su, S.; Kirshtein, A.; Shahriyari L. 
+%   Data driven mathematical model of FOLFIRI treatment for colon cancer. Cancers2021. 
+%   (Manuscript submitted for publishing)
+
 
 
 clear;
