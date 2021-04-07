@@ -1,13 +1,13 @@
 % ParseQSPData: script to parse the results obtained by running 
-%   QSPClusterAnalysis.py for ploting by PlotQSPData.m
+%   folfiri_dynamics.ipybn for plotting by PlotQSPData.m
 % Author: Arkadz Kirshtein, https://sites.google.com/site/akirshtein/
 % (c) Shahriyari Lab https://sites.google.com/site/leilishahriyari/
 %
-% part of https://github.com/ShahriyariLab/Data-driven-mathematical-model-for-colon-cancer
+% part of https://github.com/ShahriyariLab/Data-driven-mathematical-model-of-FOLFIRI-treatment-for-colon-cancer
 % If using this or related code please cite 
-% Kirshtein, A.; Akbarinejad, S.; Hao, W.; Le, T.; Aronow, R.A.; Shahriyari, L. 
-%     Data driven mathematical model of colon cancer progression. 
-%     (Manuscript submitted for publication).
+% Budithi, A.; Su, S.; Kirshtein, A.; Shahriyari L. 
+%   Data driven mathematical model of FOLFIRI treatment for colon cancer. Cancers2021. 
+%(Manuscript submitted for publishing)
 
 
 %Parsing dynamics data
