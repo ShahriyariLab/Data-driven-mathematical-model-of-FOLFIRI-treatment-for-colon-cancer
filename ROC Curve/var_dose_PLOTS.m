@@ -1,4 +1,14 @@
-%Cancer & Total cells vs varying dosages
+% var_dose_PLOTS: script for plotting the results in Figure 7 obtained by running 
+%   var_dose.ipynb
+% Author: Aparajita Budithi
+% (c) Shahriyari Lab https://sites.google.com/site/leilishahriyari/
+%
+% If using this or related code please cite 
+% Budithi, A.; Su, S.; Kirshtein, A.; Shahriyari L. 
+%   Data driven mathematical model of FOLFIRI treatment for colon cancer. Cancers2021. 
+%   (Manuscript submitted for publishing)
+
+
 clear;
 
 % Scaling
