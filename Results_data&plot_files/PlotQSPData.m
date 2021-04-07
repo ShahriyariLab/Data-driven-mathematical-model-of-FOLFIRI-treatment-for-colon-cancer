@@ -1,4 +1,13 @@
-%Plot dynamics - Figure 3
+%Plot dynamics
+% PlotQSPData: script for plotting the results in Figure 3 obtained by running 
+%   folfiri_dynamics.ipynb and ParseQSPData.m
+% Author: Arkadz Kirshtein, https://sites.google.com/site/akirshtein/
+% (c) Shahriyari Lab https://sites.google.com/site/leilishahriyari/
+%
+% If using this or related code please cite 
+% Budithi, A.; Su, S.; Kirshtein, A.; Shahriyari L. 
+%   Data driven mathematical model of FOLFIRI treatment for colon cancer. Cancers2021. 
+%   (Manuscript submitted for publishing)
 
 % reading parsed data
 load('Results\All_Dynamic\V63-results-all-data.mat')
