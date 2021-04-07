@@ -1,4 +1,16 @@
-%Different treatment dynamics - Figure 4
+%Different treatment dynamics 
+% diff_treatment_options_PLOTS: script for plotting the results in Figure 4 obtained by running 
+%   diff_treatment_options.ipynb
+
+% Author: Aparajita Budithi, Arkadz Kirshtein, https://sites.google.com/site/akirshtein/
+% (c) Shahriyari Lab https://sites.google.com/site/leilishahriyari/
+%
+% If using this or related code please cite 
+% Budithi, A.; Su, S.; Kirshtein, A.; Shahriyari L. 
+%   Data driven mathematical model of FOLFIRI treatment for colon cancer. Cancers2021. 
+%   (Manuscript submitted for publishing)
+
+
 clear;
 % total time = start-treatment + treatment + observation time 
 %T= 0 + 84 + 365 ;
