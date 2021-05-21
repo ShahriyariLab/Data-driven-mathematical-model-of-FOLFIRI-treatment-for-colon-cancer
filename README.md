@@ -10,20 +10,23 @@ Validation :
   ROC curves
     validation_patient_dynamics - python code for obtaining individual patients dynamic data  
 
-  Individual patients (Figure 7 scripts)
-    Var_dose - python script for obtaining data files
-    Var_dose_PLOTS - matlab file for printing plots
-
 Results Data & Plots  :
   Figure 3 scripts: 
     folfiri_dynamics - python script for obtaining data files 
     ParseQSPData,PlotQSPData - matlab codes for printing plots
+    
   Figure 4 scripts:
     diff_treatment_options - python script for obtaining data files
     diff_treatment_options_PLOTS - matlab codes for printing plots
+    
   Figure 5 scripts: 
     var_start_treatment - python script for obtaining data files
     var_start_treatment_PLOTS - matlab codes for plots
+    
+  Individual patients (Figure 7 scripts)
+    Var_dose - python script for obtaining data files
+    Var_dose_PLOTS - matlab file for printing plots
+    
   Figure 9 and 10 scripts:
     var_sens_par - python script for obtaining data files
     var_sens_par_PLOTS - matlab codes for plots
