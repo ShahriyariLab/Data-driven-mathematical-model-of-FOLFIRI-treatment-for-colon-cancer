@@ -4,33 +4,11 @@ Many colon cancer patients show resistance to their treatments. Therefore, it is
 
 This repository contains the following scripts:
 
-Data Preparation :
+1.Data Preparation scipts and files
 
-Validation :
-  ROC curves
-    validation_patient_dynamics - python code for obtaining individual patients dynamic data  
+2. ROC curves : scripts and files for obtaining the ROC curves in Figure 6
 
-Results Data & Plots  :
-  Figure 3 scripts: 
-    folfiri_dynamics - python script for obtaining data files 
-    ParseQSPData,PlotQSPData - matlab codes for printing plots
-    
-  Figure 4 scripts:
-    diff_treatment_options - python script for obtaining data files
-    diff_treatment_options_PLOTS - matlab codes for printing plots
-    
-  Figure 5 scripts: 
-    var_start_treatment - python script for obtaining data files
-    var_start_treatment_PLOTS - matlab codes for plots
-    
-  Individual patients (Figure 7 scripts)
-    Var_dose - python script for obtaining data files
-    Var_dose_PLOTS - matlab file for printing plots
-    
-  Figure 9 and 10 scripts:
-    var_sens_par - python script for obtaining data files
-    var_sens_par_PLOTS - matlab codes for plots
-
+3. Results Data & Plots : Scripts for obtaining the figures in the Results section and Sensitivity Analysis.
 
 
 If using any parts of this code please cite
