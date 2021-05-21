@@ -8,7 +8,7 @@ This repository contains the following scripts:
 
 2. ROC curves : scripts and files for obtaining the ROC curves in Figure 6
 
-3. Results Data & Plots : Scripts for obtaining the figures in the Results section and Sensitivity Analysis.
+3. Results Data & Plots : Scripts for obtaining the rest of the figures in the Results section and Sensitivity Analysis.
 
 (See individual files for further details)
 
