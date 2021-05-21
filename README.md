@@ -6,10 +6,11 @@ This repository contains the following scripts:
 
 1.Data Preparation scipts and files
 
-2. ROC curves : scripts and files for obtaining the ROC curves in Figure 6
+2.ROC curves : scripts and files for obtaining the ROC curves in Figure 6
 
-3. Results Data & Plots : Scripts for obtaining the figures in the Results section and Sensitivity Analysis.
+3.Results Data & Plots : Scripts for obtaining the figures in the Results section and Sensitivity Analysis.
 
+(See individual files for further detail)
 
 If using any parts of this code please cite
 
