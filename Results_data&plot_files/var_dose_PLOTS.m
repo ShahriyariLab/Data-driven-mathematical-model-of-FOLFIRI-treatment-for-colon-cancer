@@ -53,7 +53,7 @@ for j = 1:5
         drug_values = cons(:).*prescribed_dose;
         drug_values = round(drug_values,2);
         lmod = 1:9;
-        col = linspace(0.85,0,length(cons));
+        col = linspace(0.7,0,length(cons));
         if id{j} == 'TCGA-G4-6303'
             T = 6500;
         else
@@ -68,15 +68,15 @@ for j = 1:5
             pos1 = find(data.time == first_follow_up);
             hold on
             if i == 3
-                p(i) = plot(data.time,data.Cancer*cells(1,8)','blue','LineWidth',1);
+                p(i) = plot(data.time,data.Cancer*cells(1,8)','red','LineWidth',1.2);
             else 
-                p(i)=plot(data.time,data.Cancer*cells(1,8)','color',[0,0,0]+col(i),'LineWidth',1);
+                p(i)=plot(data.time,data.Cancer*cells(1,8)','color',[0,0,0]+col(i),'LineWidth',1.2);
             end
-            q = plot(last_follow_up,data.Cancer(pos)*cells(1,8),'r*','MarkerSize',10);
-            q1 = plot(first_follow_up,data.Cancer(pos1)*cells(1,8),'g*','MarkerSize',6);
+            q = plot(last_follow_up,data.Cancer(pos)*cells(1,8),'b*','MarkerSize',12);
+            q1 = plot(first_follow_up,data.Cancer(pos1)*cells(1,8),'m*','MarkerSize',8);
             hold off
         end
-        int = yline(data{1,9}*cells(1,8)','--m','LineWidth',1.2);
+        int = yline(data{1,9}*cells(1,8)','LineStyle','--','color',[0,0.5,0],'LineWidth',1.5);
         xlabel('time (days)')
         ylabel(vars{8})
         xlim([0 T])
@@ -85,7 +85,8 @@ for j = 1:5
              num2str(drug_values(7)),'Initial value','Last Follow-up day','First Follow-up day');
         title([tumor_status ' - cluster ' cluster])
         title(leg,[ drug_name ' doses (mg)'])
-        %set(gca,'FontSize',15)
+        %set(gca,'FontSize',18)
+        
     end
 
 
