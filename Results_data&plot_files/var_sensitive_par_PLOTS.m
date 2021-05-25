@@ -24,7 +24,8 @@ cons = [0.1,0.5,1,2,3,4,5];
 t_points = [100, 169, 365, 365*2, 365*3];
 
 %color variation for the plots
-col = linspace(0,1,length(t_points));
+col = linspace(1,0,length(t_points));
+col_2 = linspace(0,1,length(t_points)); 
 
 
 for par = 1:2
@@ -59,34 +60,34 @@ for par = 1:2
         cmap=lines(length(t_points));
         for m = 1:length(t_points)
             hold on
-            p(m) = plot(x_par,Cancer_by_t_point(m,:),'-o','color',[1,col(m),0],'LineWidth',1,'MarkerSize',7);
-            q = plot(x_par(index),Cancer_by_t_point(m,index),'k*','MarkerSize',7);
+            p(m) = plot(x_par,Cancer_by_t_point(m,:),'-o','color',[0,col(m),col_2(m)],'LineWidth',1.5,'MarkerSize',12);
+            q = plot(x_par(index),Cancer_by_t_point(m,index),'k*','MarkerSize',12);
             hold off
             xlabel(param,'FontSize',18)
             ylabel(vars{8},'FontSize',18)
         end
-        title(['Cluster ' num2str(cluster)],'FontSize',15)
+        title(['Cluster ' num2str(cluster)],'FontSize',18)
         leg = legend([p,q],'100 days','169 days (end treatment)','1 year',...
             '2 years','3 years','original parameter value');
         title(leg,'Time point');
-        set(gca,'FontSize',18)
+        %set(gca,'FontSize',18)
 
         %Total cells
         figure;
         cmap=lines(length(t_points));
         for m = 1:length(t_points)
             hold on
-            p(m) = plot(x_par,Tot_cells_by_t_point(m,:),'-o','color',[1,col(m),0],'LineWidth',1,'MarkerSize',7);
-            q = plot(x_par(index),Tot_cells_by_t_point(m,index),'k*','MarkerSize',7);
+            p(m) = plot(x_par,Tot_cells_by_t_point(m,:),'-o','color',[0,col(m),col_2(m)],'LineWidth',1.5,'MarkerSize',12);
+            q = plot(x_par(index),Tot_cells_by_t_point(m,index),'k*','MarkerSize',12);
             hold off
             xlabel(param,'FontSize',18)
             ylabel(vars{end},'FontSize',18)
         end
-        title(['Cluster ' num2str(cluster)],'FontSize',15)
+        title(['Cluster ' num2str(cluster)],'FontSize',18)
         leg = legend([p,q],'100 days','169 days (end treatment)','1 year',...
             '2 years','3 years','original parameter value');
         title(leg,'Time point');
-        set(gca,'FontSize',18)
+        %set(gca,'FontSize',18)
 
     end
 end
